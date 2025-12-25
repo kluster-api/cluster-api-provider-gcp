@@ -1,8 +1,6 @@
 module sigs.k8s.io/cluster-api-provider-gcp/hack/tools
 
-go 1.22.0
-
-toolchain go1.22.8
+go 1.23.0
 
 replace sigs.k8s.io/cluster-api => sigs.k8s.io/cluster-api v1.9.4
 
@@ -20,9 +18,9 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	golang.org/x/mod v0.21.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/tools v0.26.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
